@@ -14,7 +14,7 @@ app.get("/add", (req, res) => {
 
 app.get("/random",(req,res)=>{
     const randomnumber=Math.floor(Math.random()*100)+1
-    res.status(200).json({message:`Now your Response is ${randomnumber}`})
+    res.status(200).json({message:`Now its my And your Response is ${randomnumber}`})
 })
 const port = 3000
 app.listen(port, () => {
